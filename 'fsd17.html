@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let button=document.createElement("button")
+        button.id="btn";
+        button.innerText="click me"
+        document.body.appendChild(button)
+
+        let para=document.createElement("p")
+        para.id="para"
+        para.innerText=" i am para"
+        document.body.appendChild(para);
+
+        let div=document.createElement("div")
+        div.appendChild(button)
+        div.appendChild(para)
+        document.body.appendChild(div)
+        
+        div.style.color="red"
+        div.style.border="2px solid green"
+        div.style.width="100px"
+        div.style.background="blue"
+
+
+
+    </script>
+    
+</body>
+</html>
